@@ -1,0 +1,15 @@
+# catalog-info.yaml — repo myorg/lib-data-parsers
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: lib-data-parsers
+  title: Data Parsers Lib
+  description: Biblioteca Python padrão da empresa para limpeza e conversão de schemas JSON.
+  tags: [python, library]
+  annotations:
+    github.com/project-slug: myorg/lib-data-parsers
+spec:
+  type: library
+  lifecycle: production
+  owner: group:squad-data-analytics
+  system: data-analytics
